@@ -1,1 +1,1 @@
-sripts for c programing language ,for GNUs
+scripts for c programing language ,for GNUs
