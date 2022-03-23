@@ -1,16 +1,30 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
- * this function appemds the src tring to the dest string,
- * overwriting the terminating null at the end
+ * _strcat - concatenates two strings
+ * @dest: string to append to
+ * @src: string to add
+ *
+ * Return: a pointer to the resulting string
  */
-char *_strcat(char *dest, char *src);
+char *_strcat(char *dest, char *src)
 {
-	char c = "dest";
-	char d = "src\0";
-	char *dest;
+	int i, j;
 
-		dest = _strcat(c, d);
+	i = 0;
+	j = 0;
+
+	while (dest[i] != '\0')
+		i++;
+
+	while (src[j] != '\0')
+	{
+		dest[i] = src[j];
+		j++;
+		i++;
+	}
+
+	dest[i] = '\0';
+
 	return (dest);
 }
-
