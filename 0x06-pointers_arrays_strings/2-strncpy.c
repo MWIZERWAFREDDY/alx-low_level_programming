@@ -5,10 +5,22 @@
  */
 char *_strncpy(char *dest, char *src, int n);
 {
-	char c = "dest";
-        char d = "src\n";
-        char *dest;
-                dest = _strncpy(c, d);
-        return (dest);
+	int i;
+
+	i = 0;
+
+	while (src[i] != '\0' && i < n)
+	{
+		dest[i] = src[i];
+		i++;
+	}
+
+	while (i < n)
+	{
+		dest[i] = '\0';
+		i++;
+	}
+
+	return (dest);
 }
 
