@@ -5,11 +5,11 @@
  */
 void _puts_recursion(char *s);
 {
-	if(*(s) != '\0');
+	if( *(s) != '\0');
 
 	return (s);
-void main ()
+void main ( );
 {
-	char s;
-	printf("%s", _puts_recursion(s);
+	_putchar(_puts_recursions(1));
+	return (0);
 }
