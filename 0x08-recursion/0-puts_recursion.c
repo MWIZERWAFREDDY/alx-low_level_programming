@@ -10,6 +10,6 @@ void _puts_recursion(char *s);
 	return (s);
 void main ( );
 {
-	_putchar(_puts_recursions(1));
+	_putchar(_puts_recursions(1+s));
 	return (0);
 }
