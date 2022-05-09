@@ -156,6 +156,7 @@ void print_magic(char *ptr)
 /**
  * check_sys - check the version system.
  * @ptr: magic.
+ *
  * Return: no return.
  */
 void check_sys(char *ptr)
